@@ -1,0 +1,418 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:041e6579-fe42-42b0-bdda-bd20c34f5713#"
+     xml:base="urn:webprotege:ontology:041e6579-fe42-42b0-bdda-bd20c34f5713"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:041e6579-fe42-42b0-bdda-bd20c34f5713"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/rights -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/subject -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/subject"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#deprecated -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#deprecated">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#incompatibleWith"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R18kjIKTqWKcJOkbFVqpp2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R18kjIKTqWKcJOkbFVqpp2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCjsin1TxDiq04uxvv9i3CV"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simon Jenkins</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngilizlerin isimlerinin nereden geldiğinden Viking istilasına, tarihin ilk anayasası olarak kabul edilen Magna Carta’dan Yüz Yıl Savaşları’na, Yorklar ve Lancasterlar arasındaki Güller Savaşı neticesinde hâkimiyet kazanan Tudorlardan Winston Churchill’e, İç Savaş’tan Britanya İmparatorluğu’nun “dünya hâkimiyetini” eski kolonisi Amerika’ya kaybedişine dek ülkenin politik, kültürel, sosyal ve iktisadi dönüşümünü büyük bir titizlikle ortaya koyan İngiltere’nin Kısa Tarihi, bu ilgi çekici hikâyeyi en geniş açıdan anlatma iddiasını başarılı bir şekilde yerine getiriyor.
+
+Simon Jenkins, Saksonlardan günümüze İngiltere tarihini büyük tabloya yerleştiriyor. Geniş bir zaman aralığında, incelikli bir üslupla, tüm önemli karakterleri ve olayları ayrıntılarıyla naklediyor. İngilizleri, Britonlar ve Britanyalılardan ayrı bir yere koyarak sadece İngiltere’ye odaklanıyor ve tarihin belki de en şatafatlı geçmişine sahip bu ulusun kökenlerine iniyor.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789750529344</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ayhan Matbaası</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ayhan Matbaası</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simon Jenkins</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?cwid=2&amp;keyword=%C4%B0ngiltere%E2%80%99nin+k%C4%B1sa+tarihi&amp;tokat_search_field=2&amp;order=0"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngiltere Tarihi</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngilterenin kısa tarihi</dc:title>
+        <rdfs:label xml:lang="en">İngillterenin kısa tarihi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4ZbP62odHbV0UvZDG5Swb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R4ZbP62odHbV0UvZDG5Swb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDHZkmLicyjeXhe3kuzJsIL"/>
+        <rdfs:label xml:lang="en">OttomanEmpire</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R71035FDrD8u0FHoCkvtGtS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R71035FDrD8u0FHoCkvtGtS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R4ZbP62odHbV0UvZDG5Swb"/>
+        <dc:creator xml:lang="de">Ernst Werner</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Osmanlı&apos;nın kuruluş tarihinde ve gelişimini konu alan çok önemli bir baş yapıt.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786051723167</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yordam kitap</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ernst Werner</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">yordam kitap</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?cwid=2&amp;keyword=B%C3%BCy%C3%BCk+bir+devletin+do%C4%9Fu%C5%9Fu+%3A+Osmanl%C4%B1lar+%281300-1481%29+%3A+Osmanl%C4%B1+feodalizminin+olu%C5%9Fum+s%C3%BCreci&amp;tokat_search_field=2&amp;order=0"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kuruluş dönemi</dc:subject>
+        <dc:title xml:lang="tr">Büyük Bir Devletin Doğuşu Osmanlılar</dc:title>
+        <rdfs:label xml:lang="en">Büyük_Bir_Devletin_Doğuşu_Osmanlılar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7eBKrnitht1e7EaMIUrRCH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7eBKrnitht1e7EaMIUrRCH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCjsin1TxDiq04uxvv9i3CV"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jeremy Black</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ngiltere tarihi bir ülkenin ve halkın ortak yazgısından çok daha fazlasına sahiptir. Bu tarih İskoçya, İrlanda ve Galler ile birlikte topyekûn Britanya Adaları tarihidir. Bütünüyle bakıldığında emperyal bir gücün Avrupa’dan Amerika’ya, Ortadoğu’dan Hindistan’a yayılması ve en uzak topraklarda diplomasi, sömürge, ekonomi, dil ve kültür, edebiyat aracılığıyla hüküm sürmesidir. En geniş anlamıyla İngiltere bir yönetim sanatı ve uzlaşmanın eseridir. Hem içeride hem de dışarıda kriz ve bunalımları kendine özgü değerleri ve tarihsel sürekliliğini koruyarak çözmüştür. Bu nitelik ona, Kıta Avrupası ve tüm rakiplerinden daha üstün, her koşulda en gerçekçi politikaları üretebilme ayrıcalığını kazandırmıştır.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786257030021</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doğu Batı Yayınları</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doğu Batı Yayınları</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jeremy Black</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?cwid=2"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kraliyet</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngiltere Tarihi</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İngiltere Tarihi</dc:title>
+        <rdfs:label xml:lang="en">İngiltere Tarihi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7mHyILrtnOzpZcqrYpB3cV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7mHyILrtnOzpZcqrYpB3cV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R4ZbP62odHbV0UvZDG5Swb"/>
+        <dc:creator xml:lang="en">Joseph Von Hammer</dc:creator>
+        <dc:date xml:lang="tr">2017</dc:date>
+        <dc:description xml:lang="tr">Osmanlı devleti; ancak kuruluşundan yüz elli yıl sonra Istanbul&apos;un fethi ile kendini pekiştirdi. Ve bu tarihten de bir yüzyıldan daha fazla bir zaman (Kıbrıs&apos;ın alınmasına kadar) gücü gittikçe arttı, yüceldi. Osmanlı Devleti büyüklüğünün en yüksek derecesine erişince, yüz elli yıl konumunu korumaya gücü yetti. Ve bundan sonra da XVİİİ. Yüzyılın ortalarına, yâni Küçük Kaynarca Antlaşmasına kadar hızla bir çözülmeye ve gerilemeye doğru yol almaya başlamıştır.&quot;
+Hammer; aslen Avusturyalıdır. Latince ve Yunanca ile birlikte batıda yaşayan on dili ve üç doğu dilini (Arapça, Farsça, Osmanlıca) çok iyi bilmekte idi. Yazdığı eserlerinin en önemlisi, &quot;Osmanlı Tarihi&quot; dir. Bu eserini kaleme alırken bütün Avrupa arşivlerini taramış ve Osmanlı kaynaklarını da çok geniş ölçüde kullanılmıştır. Bu büyük eserinde yazar, bazen önyargılarının etkisinde kalmış, yanlış değerlendirmelerde bulunmuş, hatalardan kurtulamamıştır. Bütün bu değerlendirmelere rağmen eser henüz aşılamamış ve birçok konularda hala kaynak niteliğini korumaktadır...</dc:description>
+        <dc:description xml:lang="tr">Osmanlı İmparatorluğu&apos;nu bütün yönleriyle inceleyen ve dünyada pekçok dilde yayınlanan, Türkiye&apos;de yayınlamış tarih kitaplarına kaynak niteliği taşıyan bir eser.</dc:description>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier xml:lang="tr">9752413013</dc:identifier>
+        <dc:identifier xml:lang="tr">978-9752413016</dc:identifier>
+        <dc:language xml:lang="tr">Turkish</dc:language>
+        <dc:publisher xml:lang="tr">Adonis Yayıncılık</dc:publisher>
+        <dc:rights xml:lang="tr">Adonis Yayıncılık</dc:rights>
+        <dc:rights xml:lang="en">Joseph Von Hammer</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?cwid=2&amp;keyword=9789757622093&amp;tokat_search_field=4&amp;order=0"/>
+        <dc:subject xml:lang="tr">Dağılma Dönemi</dc:subject>
+        <dc:subject xml:lang="tr">Duraklama Dönemi</dc:subject>
+        <dc:subject xml:lang="tr">Fetret Devri</dc:subject>
+        <dc:subject xml:lang="tr">Osmanlı Kuruluş Dönemi</dc:subject>
+        <dc:subject xml:lang="tr">Osmanlı Tarihi</dc:subject>
+        <dc:subject xml:lang="tr">Osmanlı Yükseliş Dönemi</dc:subject>
+        <dc:title xml:lang="tr">Büyük Osmanlı Tarihi</dc:title>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Büyük Osmanlı İmpararatorluğu</dc:title>
+        <rdfs:label xml:lang="en">Büyük_Osmanlı_Tarihi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8PNhvniqRN9sqvvh1koFJ6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8PNhvniqRN9sqvvh1koFJ6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCpojHJq2MRJZfaMGbKo9rQ"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1789 yılında neden Avrupa’nın başka bir yerinde değil de Fransa’da devrim oldu? George Rudé, bu temel sorudan yola çıkarak neredeyse tüm dünya tarihini etkileyen ve siyasetini yeniden şekillendiren Fransız
+Devrimi’ni derinlikleriyle ele alıyor. Rudé kral, saray, aristokrasi, burjuvazi, din adamları, halk yığınları, askerler ve Aydınlanma düşünceleri arasındaki gerilimleri, ittifakları ve çözülmeleri net biçimde ortaya koyuyor. Öte yandan devrimin nispeten az ele alınan “halk hareketleri” boyutuna da özellikle eğilerek, sıradan
+Fransız vatandaşlarının devrimle kurduğu ilişkiyi, davranışlarını da somutlaştırıyor Fransız Devrimi’nin etkileyici bir panoramasını çizen, büyük resme bakarken arkada yatan ince detayları göz ardı etmeyen, kapsamlı bir
+çalışma..</dc:description>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fransız Devrimi</dc:title>
+        <rdfs:label xml:lang="en">FrenchHistory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8tKOiP8bodXoP9vTNuzka9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8tKOiP8bodXoP9vTNuzka9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCmTW6W48uHVPq6bKps9Prs"/>
+        <dc:creator xml:lang="tr">Mustafa Kemal Atatürk</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</dc:date>
+        <dc:description xml:lang="tr">Atatürk&apos;ün yakın tarihimiz açısından büyük önem taşıyan ünlü eseri Nutuk, yıllar sonra Arap harflerinden bir kez daha çevrildi. Uzun soluklu bu çeviri süreci, eserin 1934 baskısında var olan ve günümüze ulaşan çeşitli hataları da ortaya çıkardı.</dc:description>
+        <dc:format xml:lang="tr">basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789750820038</dc:identifier>
+        <dc:language xml:lang="tr">türkçe</dc:language>
+        <dc:publisher xml:lang="tr">yapı kredi yayınları</dc:publisher>
+        <dc:rights xml:lang="tr">Mustafa Kemal Atatürk</dc:rights>
+        <dc:rights xml:lang="tr">yapı kredi yayınları</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?cwid=2&amp;keyword=Nutuk+%3A+Gazi+Mustafa+Kemal+taraf%C4%B1ndan%2C+1927.&amp;tokat_search_field=2&amp;order=0"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Atatürk</dc:subject>
+        <dc:title xml:lang="tr">nutuk</dc:title>
+        <rdfs:label xml:lang="en">Nutuk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9r8kUYL5KCb3bIMcCq9sty -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9r8kUYL5KCb3bIMcCq9sty">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCmTW6W48uHVPq6bKps9Prs"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Falih Rıfkı Atay</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zeytindağı, insanın kanını donduran tarihi bir süreci, “bir imparatorluğun çöküşünü” o zamana göre en duru Türkçe ile karşımıza getiriyor. Kitapta Mehmetçik’in Yemen’de, Aden’de, Kanal’da, Gazze’de, Arap çöllerinde nasıl kırıldığını, yenilgiden sonra bir vagon dolusu “mecidiye altınını” bile nasıl bıraktığımızı hayretler içerisinde okuyacaksınız.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789756461075</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pozitif yayınları</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Falih Rıfkı Atay</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pozitif yayınları</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?cwid=2&amp;keyword=Zeytinda%C4%9F%C4%B1&amp;tokat_search_field=2&amp;order=0"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumhuriyet Tarihi</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zeytindağı</dc:title>
+        <rdfs:label xml:lang="en">Zeytindağı</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBQxzmGiPRKLcl8tiTBJNXq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBQxzmGiPRKLcl8tiTBJNXq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PNhvniqRN9sqvvh1koFJ6"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ali İhsan Dalgıç</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1789 yılında neden Avrupa’nın başka bir yerinde değil de Fransa’da devrim oldu? George Rudé, bu temel sorudan yola çıkarak neredeyse tüm dünya tarihini etkileyen ve siyasetini yeniden şekillendiren Fransız
+Devrimi’ni derinlikleriyle ele alıyor. Rudé kral, saray, aristokrasi, burjuvazi, din adamları, halk yığınları, askerler ve Aydınlanma düşünceleri arasındaki gerilimleri, ittifakları ve çözülmeleri net biçimde ortaya koyuyor. Öte yandan devrimin nispeten az ele alınan “halk hareketleri” boyutuna da özellikle eğilerek, sıradan
+Fransız vatandaşlarının devrimle kurduğu ilişkiyi, davranışlarını da somutlaştırıyor Fransız Devrimi’nin etkileyici bir panoramasını çizen, büyük resme bakarken arkada yatan ince detayları göz ardı etmeyen, kapsamlı bir
+çalışma...</dc:description>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789750517297</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iletişim yayınları</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ali İhsan Dalgıç</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iletişim yayınları</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?cwid=2&amp;keyword=Frans%C4%B1z+Devrimi&amp;tokat_search_field=2&amp;order=0"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fransız Devrimi</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fransız Tarihi</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fransız Devrimi</dc:title>
+        <rdfs:label xml:lang="en">Fransız Devrimi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBSkO4BaYP3ULoRp3RhQRt6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBSkO4BaYP3ULoRp3RhQRt6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RvsYed8r8XqZp345OZRwkh"/>
+        <rdfs:label xml:lang="en">typesOfBook</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBlLsbO4FYYsxfRHLwhVCG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBlLsbO4FYYsxfRHLwhVCG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8PNhvniqRN9sqvvh1koFJ6"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">server tanilli</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Devrim elbette halk kitlelerinin eseri, ama yığınların önüne düşüp yol gösterenler var: Aydınlar, örgütleyiciler, liderler...Onlarsız hareket başarıya ulaşamaz.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9789944148160</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkım yayınevi</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alkım yayınevi</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">server tanilli</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?cwid=2&amp;keyword=Frans%C4%B1z+Devrimi%27nden+portreler&amp;tokat_search_field=2&amp;order=0"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Devrim Tarihi</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fransız Devrimi&apos;nden Portreler</dc:title>
+        <rdfs:label xml:lang="en">Fransız Devrimi&apos;nden Portreler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmeYNbmuLg5wei48G2LOz2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmeYNbmuLg5wei48G2LOz2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCmTW6W48uHVPq6bKps9Prs"/>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temuçin Faik Ertan</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</dc:date>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ürk modernleşmesi tarihsel sürekliliği ve kopuşu bünyesinde barındıran ve kendi içinde çeşitli dönemlere ayrılan bir süreçtir. Atatürk önderliğinde gerçekleştirilen Türk devrimi sonucunda kurulmuş olan Türkiye Cumhuriyeti’nin gelişimi de, bu modernleşme sürecinin bir parçasıdır. Günümüzde Türkiye Cumhuriyeti’nin kuruluş süreci ve gelişimi, tüm yükseköğrenim kurumlarında Atatürk İlkeleri ve İnkılâp Tarihi dersi adı altında anlatılmaktadır. Atatürk İlkeleri ve İnkılâp Tarihi, Türk Tarihi’nin bir alanı olup, dersten öte bir anlam taşımaktadır. Türkiye Cumhuriyeti yurttaşları için Atatürk İlkeleri ve İnkılâp Tarihi’ni
+öğrenmek, kendi tarihinin önemli bir parçasını öğrenmek demektir.</dc:description>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basılı</dc:format>
+        <dc:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9786055782566</dc:identifier>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Türkçe</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">siyasal kitabevi</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temuçin Faik Ertan</dc:rights>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">siyasal kitabevi</dc:rights>
+        <dc:source rdf:resource="http://www.toplukatalog.gov.tr/?cwid=2&amp;keyword=Ba%C5%9Flang%C4%B1c%C4%B1ndan+g%C3%BCn%C3%BCm%C3%BCze+T%C3%BCrkiye+Cumhuriyeti+tarihi&amp;tokat_search_field=2&amp;order=0"/>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cumhuriyet</dc:subject>
+        <dc:subject rdf:datatype="http://www.w3.org/2001/XMLSchema#string">İnkılap Tarihi</dc:subject>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Başlangıcından Günümüze Türkiye Cumhuriyeti Tarihi</dc:title>
+        <rdfs:label xml:lang="en">Başlangıcından Günümüze Türkiye Cumhuriyeti Tarihi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCjsin1TxDiq04uxvv9i3CV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCjsin1TxDiq04uxvv9i3CV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCpojHJq2MRJZfaMGbKo9rQ"/>
+        <rdfs:label xml:lang="en">EnglishHistory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCmTW6W48uHVPq6bKps9Prs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCmTW6W48uHVPq6bKps9Prs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDHZkmLicyjeXhe3kuzJsIL"/>
+        <rdfs:label xml:lang="en">republicOfTurkey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCpojHJq2MRJZfaMGbKo9rQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCpojHJq2MRJZfaMGbKo9rQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBSkO4BaYP3ULoRp3RhQRt6"/>
+        <rdfs:label xml:lang="en">history</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDHZkmLicyjeXhe3kuzJsIL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDHZkmLicyjeXhe3kuzJsIL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCpojHJq2MRJZfaMGbKo9rQ"/>
+        <rdfs:label xml:lang="en">TurkishHistory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvsYed8r8XqZp345OZRwkh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RvsYed8r8XqZp345OZRwkh">
+        <rdfs:label xml:lang="en">books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rx0GsGIFVdcdkUDgVtouEF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rx0GsGIFVdcdkUDgVtouEF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R4ZbP62odHbV0UvZDG5Swb"/>
+        <dc:creator xml:lang="tr">Halil İnalcık</dc:creator>
+        <dc:date xml:lang="tr">2016</dc:date>
+        <dc:description xml:lang="tr">Milletleri millet yapan tarihleri ve kültürleridir. Tarihsiz bir millet, kişiliğini kaybetmiş bireye benzer. Osmanlı tarihi, Türk tarihinin görkemli bir dönemidir</dc:description>
+        <dc:format xml:lang="tr">Basılı</dc:format>
+        <dc:identifier xml:lang="tr">9789752430563</dc:identifier>
+        <dc:language xml:lang="tr">Turkish</dc:language>
+        <dc:publisher xml:lang="tr">KRONİK KİTAP</dc:publisher>
+        <dc:rights rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Halil İnalcık</dc:rights>
+        <dc:rights xml:lang="tr">Kronik Kitap</dc:rights>
+        <dc:source rdf:resource="https://www.kitapsec.com/Products/Osmanli-Imparatorlugu-2-Cilt-Kutulu-Halil-Inalcik-Kronik-Kitap-298744.html"/>
+        <dc:subject xml:lang="tr">Osmanlı Tarihi</dc:subject>
+        <dc:subject xml:lang="tr">Türk Halifelik Dönemi</dc:subject>
+        <dc:subject xml:lang="tr">Türk Tarihi</dc:subject>
+        <dc:subject xml:lang="tr">Türk-İslam Tarihi</dc:subject>
+        <dc:title xml:lang="tr">Osmanlı İmparatorluğu</dc:title>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Osmanlı İmparatorluğu</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
